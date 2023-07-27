@@ -1,0 +1,36 @@
+/*
+ * This file defines all the scss variables.
+ */
+
+// Colors:
+$color-white: #ffffff;
+$color-black: #000000;
+$color-black-light: #424340;
+$color-error: #ff5050;
+$color-confirm: #6fcbcb;
+
+// Fonts:
+$font: 'Montserrat', sans-serif;
+
+/*
+ * This variable defines the values of breapkpoints.
+ * These values are the same as used by javascript (assets/script/1-tools/breakpoints.js).
+ */
+ $breakpoints: (
+    xs: 400px,
+    sm: 500px,
+    md: 850px,
+    lg: 1200px,
+    xl: 1500px
+  );
+  
+  // Value for container.
+  $container-small: 960px;
+  $container: 1200px;
+  $container-large: 1280px;
+  
+  // Animations:
+  $time-veryfast: .2s;
+  $time-fast: .5s;
+  $time-normal: .7s;
+  $time-slow: 1s;
